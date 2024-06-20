@@ -1,0 +1,17 @@
+{
+    "OFR001": {
+      "discount": 10,
+      "distance_criteria": { "min": 0, "max": 200 },
+      "weight_criteria": { "min": 70, "max": 200 }
+    },
+    "OFR002": {
+      "discount": 7,
+      "distance_criteria": { "min": 50, "max": 150 },
+      "weight_criteria": { "min": 100, "max": 250 }
+    },
+    "OFR003": {
+      "discount": 5,
+      "distance_criteria": { "min": 50, "max": 250 },
+      "weight_criteria": { "min": 10, "max": 150 }
+    }
+}

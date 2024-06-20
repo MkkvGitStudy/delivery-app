@@ -17,7 +17,7 @@ The user will be provided with 4 options in the CLI
 3 - Add offer code 
 4 - Show current offers
 
-# Option 1
+### Option 1
 
 User will have to provide
 - The base price
@@ -28,7 +28,7 @@ total delivery cost is calculated as "basePrice + (pkg.PkgWeight * 10) + (pkg.Di
 offer code is applied on the total delivery cost if applicable and the actual cost of the package is calculated by subtracting the discount amount from the total delivery cost
 offercodes are stored in json format and new offercodes can be added.
 
-# Option 2
+### Option 2
 
 User will have to input all the details that they entered in the first option and in addition need to provide the following
 - The number of vehicles
@@ -43,14 +43,14 @@ Following assumptions are made for the delivery time calculation
 - All vehicles travel at the same speed and in same route
 - All destinations are covered in a single route
 
-# Option 3
+### Option 3
 
 User can select this to add new offer codes. User will have to provide the following details
 - The discount percentage for coupon
 - The minimum distance and maximum distance values applicable for coupon
 - The minimum distance and maximum weight applicable for coupon
 
-# Option 4
+### Option 4
 This will list out all the offer codes
 
 ## Running the test cases
